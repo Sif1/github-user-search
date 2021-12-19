@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders userscreen correctly - snapshot 1`] = `
+<div
+  className="user-wrapper"
+>
+  <h3
+    className="user-title"
+  >
+    Here's some info about the user: undefined
+  </h3>
+  <button
+    className="back-button"
+    onClick={[Function]}
+  >
+    Search another user
+  </button>
+  <div
+    className="user-section"
+  >
+    <img
+      className="img-style"
+    />
+    <p
+      className="description-text"
+    >
+       has 
+       public repositories on his github account. See more about them below!
+    </p>
+  </div>
+</div>
+`;

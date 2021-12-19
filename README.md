@@ -13,4 +13,6 @@ To run the project locally, all you need to do is clone it and then run 'npm sta
 2) using a css preprocessor, 
 3) global state management if we were to build something bigger, 
 4) responsive design for a set of different screen resolutions,
+5) add an http client such as axios for more robust request logic,
+6) add more tests (unit, integration and even e2e depending on the feature and necessity),
 among some others. :)

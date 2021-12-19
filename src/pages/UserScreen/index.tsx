@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import {
     useParams,
     useNavigate,
@@ -14,12 +14,12 @@ function UserScreen() {
     let userName = useParams();
     const navigate = useNavigate();
 
-    const handleFetchPublicRepos = () => {
+    const handleFetchPublicRepos = useCallback(() => {
             fetch(`https://api.github.com/users/${userName.id}/repos`)
             .then(response => response.json())
             .then(data => {
                 setUserRepos(data)});
-    }
+    }, [userName.id]);
 
     const handleGoBack = () => {
         navigate(-1);
@@ -35,7 +35,7 @@ function UserScreen() {
             setUserInfo(data)
             handleFetchPublicRepos();
         });
-      }, []);
+      }, [handleFetchPublicRepos, userName.id]);
 
     
 
@@ -52,6 +52,7 @@ function UserScreen() {
                 {!shouldShowError ? 
                 <>
                     <img 
+                        alt='user avatar'
                         src={userInfo?.avatar_url}
                         className='img-style'
                     />

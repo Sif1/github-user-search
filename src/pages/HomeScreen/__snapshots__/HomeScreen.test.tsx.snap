@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homescreen correctly - snapshot 1`] = `
+<div
+  className="screen-wrapper"
+>
+  <h1
+    className="home-title"
+  >
+    Git-A-User!
+  </h1>
+  <p
+    className="description-text"
+  >
+    Type in a github username to fetch some cool info about a user.
+  </p>
+  <div>
+    <input
+      onChange={[Function]}
+      placeholder="Github username"
+      type="text"
+      value=""
+    />
+    <button
+      className="button-style"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders homescreen correctly 1`] = `
+<div
+  className="screen-wrapper"
+>
+  <h1
+    className="home-title"
+  >
+    Git-A-User!
+  </h1>
+  <p
+    className="description-text"
+  >
+    Type in a github username to fetch some cool info about a user.
+  </p>
+  <div>
+    <input
+      onChange={[Function]}
+      placeholder="Github username"
+      type="text"
+      value=""
+    />
+    <button
+      className="button-style"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;
