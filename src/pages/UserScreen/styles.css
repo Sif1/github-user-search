@@ -1,0 +1,55 @@
+.user-wrapper {
+    text-align: center;
+    background-color: #628283;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-title {
+      font-size: calc(30px + 2vmin);
+      color: white;
+  }
+  .description-text {
+      font-size: calc(20px);
+      color: #b3f0ce;
+  }
+
+  .back-button {
+      width: 180px;
+      margin: 10px;
+      padding-left: 6px;
+      padding-right: 6px;
+      border-radius: 8px;
+  }
+
+  .error-message {
+    font-size: calc(20px);
+    color: #b3f0ce;
+  }
+
+  .img-style {
+      height: 260px;
+      width: 260px;
+  }
+
+  .user-section {
+    align-items: center;
+  }
+
+  .repo-section {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .repo-name {
+    font-size: 24px;
+    color: #021a0d;
+  }
+
+  .repo-description {
+    font-size: 16px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px rgb(73, 224, 53);
+  }
