@@ -1,6 +1,6 @@
 # How to run the project
 
-To run the project locally, all you need to do is clone it and then run 'npm start'. If a browser tab doesn't open automaticall, just go to 'localhost:3000' and you should be able to see the app.
+To run the project locally, all you need to do is clone it and then run 'npm install && npm start'. If a browser tab doesn't open automatically, just go to 'localhost:3000' and you should be able to see the app.
 
 # Notes
 
